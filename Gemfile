@@ -9,6 +9,11 @@ ruby "2.4.0"#Specifies Ruby version of Heroku deployment.
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 
+gem 'devise'#A flexible authenication solution for Rails based on Warden.
+gem 'twitter-bootstrap-rails'
+gem 'jquery-rails'
+gem 'devise-bootstrap-views'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
