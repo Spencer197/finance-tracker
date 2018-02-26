@@ -14,6 +14,10 @@ gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views'
 
+gem 'stock_quote'#Real-time, stock data and historical pricing using the Google Finance API.
+
+gem 'font-awesome-rails'#Provides the Font-Awesome web fonts and stylesheets as a Rails engine for use with the asset pipeline.
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
