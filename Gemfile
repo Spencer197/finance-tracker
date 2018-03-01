@@ -11,7 +11,7 @@ gem 'rails', '~> 5.1.5'
 
 gem 'devise'#A flexible authenication solution for Rails based on Warden.
 gem 'twitter-bootstrap-rails'
-gem 'jquery-rails'
+gem 'jquery-rails'#An unobtrusive scripting support file developed for the Ruby on Rails framework
 gem 'devise-bootstrap-views'
 
 gem 'stock_quote'#Real-time, stock data and historical pricing using the Google Finance API.

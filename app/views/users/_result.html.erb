@@ -1,0 +1,11 @@
+<div class="results-block"><%# Enables styling %>
+  <%= bootstrap_flash %><%#Renders error messages%>
+</div>
+
+<% if @stock %><%#Solves the case of referencing the @stock instance variable without it being in my_portfolio. Lec.167. %>
+  <div class="well results-block">
+    <strong>Symbol: </strong> <%= @stock.ticker %>
+    <strong>Name: </strong> <%= @stock.name %>
+    <strong>Price: </strong> <%= @stock.last_price %>
+  </div>
+<% end %>
