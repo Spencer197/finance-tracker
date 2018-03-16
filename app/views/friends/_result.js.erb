@@ -1,0 +1,4 @@
+$('#results').html("<%= j (render 'friends/result.html') %>");
+<%#Because this is javascript, the embedded Ruby must be within double quotes. %>
+<%# We need to escape the rendered html so that we get the valid javascript. Therefore we add the 'j method' after <%= . %>
+<%#Because this is javascript, we need a semi-colon at the end of the statement.%>
